@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-06-12T19:19:36.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="NTPXp2IvrCH2engSQDbc" version="21.2.2" type="github">
+  <diagram name="Página-1" id="FBPMCTuJM1-SSpfrFQ9Z">
+    <mxGraphModel dx="1110" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-5" value="Turma" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-6" value="- id: int&lt;br&gt;- apelido: String&lt;br&gt;- capacidade: int&lt;br&gt;- ucs_iducs: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-5">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-5">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-8" value="+ getId: int&lt;br&gt;+ getApelido: String&lt;br&gt;+ getCapacidade: int&lt;br&gt;+ getUcs_iducs: int&lt;br&gt;+ setId(int): void&lt;br&gt;+ setApelido(String): void&lt;br&gt;+ setCapacidade(int): void&lt;br&gt;+ setUcs_iducs(int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-5">
+          <mxGeometry y="108" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-10" value="Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-10">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-13" value="+&amp;nbsp;main(String[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-10">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-14" value="AppView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-14">
+          <mxGeometry y="26" width="110" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-17" value="+ menuInicial: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-14">
+          <mxGeometry y="34" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-18" value="TurmaView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-18">
+          <mxGeometry y="26" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-21" value="+&amp;nbsp;listarTurmas&lt;span style=&quot;background-color: initial;&quot;&gt;(List&amp;lt;Turma&amp;gt;): void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-18">
+          <mxGeometry y="34" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-22" value="TurmaDAO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-22">
+          <mxGeometry y="26" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-25" value="+ getTurmas: List&amp;lt;Turma&amp;gt;&lt;br&gt;+ salvarTurma(Turma): Turma" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-22">
+          <mxGeometry y="34" width="170" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-26" value="DBConnection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-27" value="- instance: DBConnection&lt;br&gt;- url: String&lt;br&gt;- dbName: String&lt;br&gt;- driver: String&lt;br&gt;- driverManager:&amp;nbsp;DriverManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-26">
+          <mxGeometry y="26" width="190" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-26">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-29" value="- DBConnection(): void&lt;br&gt;-&amp;nbsp;getInstance(): DBConnection&lt;br&gt;-&amp;nbsp;getConnection(): Connection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-26">
+          <mxGeometry y="118" width="190" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-30" value="AppController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-31" value="- turmas: List&amp;lt;Turma&amp;gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-30">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-30">
+          <mxGeometry y="50" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_rjX-UXxfD78Uuw5T20S-33" value="+ appController(): void&lt;br&gt;+ iniciar(): void&lt;br&gt;+&amp;nbsp;criarTurmaEIncluir(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_rjX-UXxfD78Uuw5T20S-30">
+          <mxGeometry y="58" width="160" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
