@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T18:06:42.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="_BiBRQf8B9KytrDVJE8y" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T18:15:28.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="wohK_OBoWMaM5iImTXDx" version="21.3.8" type="github">
   <diagram name="Página-1" id="l5Eirs2qCnSo72D6QEz-">
     <mxGraphModel dx="1269" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,15 +213,6 @@
             <Array as="points">
               <mxPoint x="1310" y="780" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="voO-R-jOmLPzby_aq_sF-49" value="Atualizar Status Apartamento" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" y="740" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="voO-R-jOmLPzby_aq_sF-51" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=rgb(0, 0, 0);exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="voO-R-jOmLPzby_aq_sF-49" target="voO-R-jOmLPzby_aq_sF-33" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="870" y="710" as="sourcePoint" />
-            <mxPoint x="1030" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
